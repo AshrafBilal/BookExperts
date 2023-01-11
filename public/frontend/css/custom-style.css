@@ -1,0 +1,27 @@
+.container.privacy_policy {
+    margin: 30px;
+}
+
+.error{
+	color:red!important;
+}
+
+.login-page_ {
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+/*     background-color: #e9ecef;
+ */    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 100vh;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.timeline:before {
+    top: 12px !important;
+}

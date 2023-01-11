@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+.login.login-1 .login-aside .aside-img {
+  min-height: 450px; }
+.logo_inn img {
+    width: 100%;
+}
+.admin_hding_clr{color:#525252;    font-size: 2.4rem;font-family: 'Roboto', sans-serif;}
+h3.wlcm-back {
+    font-size: 60px;
+    color: #fff;
+    font-weight: 700;
+	font-family: 'Roboto', sans-serif;
+}
+p.wlcm-sigin {
+    color: #fff;
+    font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+}
+.login_heading_text img {
+    width: 130px;
+}	
+.btn_size {
+    font-size: 20px !important;
+    font-weight: 500 !important;
+}
+.login.login-1 .login-signin,
+.login.login-1 .login-signup,
+.login.login-1 .login-forgot {
+  display: none; }
+
+.login.login-1.login-signin-on .login-signup {
+  display: none; }
+
+.login.login-1.login-signin-on .login-signin {
+  display: block; }
+
+.login.login-1.login-signin-on .login-forgot {
+  display: none; }
+
+.login.login-1.login-signup-on .login-signup {
+  display: block; }
+
+.login.login-1.login-signup-on .login-signin {
+  display: none; }
+
+.login.login-1.login-signup-on .login-forgot {
+  display: none; }
+
+.login.login-1.login-forgot-on .login-signup {
+  display: none; }
+
+.login.login-1.login-forgot-on .login-signin {
+  display: none; }
+
+.login.login-1.login-forgot-on .login-forgot {
+  display: block; }
+  
+ .error {
+    color: red!important;
+}
+
+
+
+@media (min-width: 992px) {
+  .login.login-1 .login-aside {
+    width: 100%;
+    max-width: 600px; }
+  .login.login-1 .login-content {
+    width: 100%;
+     /* background:#F3F3F3 */ }
+    .login.login-1 .login-content .login-form {
+      width: 100%;
+      max-width: 450px; } }
+
+@media (min-width: 992px) and (max-width: 1399.98px) {
+  .login.login-1 .login-aside {
+    width: 100%;
+    max-width: 600px; } }
+
+@media (max-width: 991.98px) {
+  .login.login-1 .login-content .login-form {
+    width: 100%;
+    max-width: 400px; }
+h3.wlcm-back {
+    font-size: 45px !important;
+	}
+
+@media (max-width: 575.98px) {
+  .login.login-1 .aside-img {
+    min-height: 300px !important;
+    background-size: 400px; }
+  .login.login-1 .login-content .login-form {
+    width: 100%;
+    max-width: 100%; } }
+	

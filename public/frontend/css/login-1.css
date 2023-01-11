@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.login.login-1 .login-aside .aside-img {
+  min-height: 309px; }
+.logo_inn {
+    padding: 0 60px;
+}
+.login.login-1 .login-signin,
+.login.login-1 .login-signup,
+.login.login-1 .login-forgot {
+  display: none; }
+
+.login.login-1.login-signin-on .login-signup {
+  display: none; }
+
+.login.login-1.login-signin-on .login-signin {
+  display: block; }
+
+.login.login-1.login-signin-on .login-forgot {
+  display: none; }
+
+.login.login-1.login-signup-on .login-signup {
+  display: block; }
+
+.login.login-1.login-signup-on .login-signin {
+  display: none; }
+
+.login.login-1.login-signup-on .login-forgot {
+  display: none; }
+
+.login.login-1.login-forgot-on .login-signup {
+  display: none; }
+
+.login.login-1.login-forgot-on .login-signin {
+  display: none; }
+
+.login.login-1.login-forgot-on .login-forgot {
+  display: block; }
+
+@media (min-width: 992px) {
+  .login.login-1 .login-aside {
+    width: 100%;
+    max-width: 600px; }
+  .login.login-1 .login-content {
+    width: 100%;
+     background:#F3F3F3 }
+    .login.login-1 .login-content .login-form {
+      width: 100%;
+      max-width: 550px; } 
+	  .login.login-1 .login-aside .aside-img {
+    position: absolute;
+    bottom: 0;
+  
+    left: 0;
+    right: 0;
+}
+	  }
+@media (min-width:480px) {
+.logo_inn img {
+    width: 300px;
+}
+}
+
+@media (min-width: 992px) and (max-width: 1399.98px) {
+  .login.login-1 .login-aside {
+    width: 100%;
+    max-width: 475px; } }
+
+@media (max-width: 991.98px) {
+  .login.login-1 .login-content .login-form {
+    width: 100%;
+    max-width: 400px; }
+.login.login-1 .login-aside .aside-img {
+    min-height: 418px;
+}
+	}
+
+@media (max-width: 575.98px) {
+  .login.login-1 .aside-img {
+    min-height: 300px !important;
+    background-size: 400px; }
+  .login.login-1 .login-content .login-form {
+    width: 100%;
+    max-width: 100%; } }
